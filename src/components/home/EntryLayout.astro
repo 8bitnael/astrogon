@@ -31,11 +31,11 @@ const { image, imageAlt, title, content, button } = entry.data;
                 loading="eager"
               />
               </div>
-              
+
             )
           }
-          <h1 set:html={markdownify(title)} class="mb-4" />
-          <p set:html={markdownify(content)} class="mb-8" />
+          <h1 set:html={markdownify(title)} class="sr-only" />
+          <p set:html={markdownify(content)} class="mb-8 italic normal-case text-white" />
           {
             button && (
               <Button
