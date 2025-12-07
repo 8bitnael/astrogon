@@ -48,6 +48,8 @@ const iconClass =
             class={iconClass}
             aria-label="Email"
             href={`mailto:${links.email?.trim()}`}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
           >
             <span class="sr-only">Email</span>
             <FaEnvelope className="w-6 h-6" />

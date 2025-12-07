@@ -1,7 +1,7 @@
 ---
 title: Villa Benedetta
-email:  villabenedetta65@yahoo.it
-image: "@assets/profile/jane-doe.jpg"
+email: villabenedetta65@yahoo.it
+image: "@assets/profile/vb2.png"
 social:
   linkedIn: "https://www.linkedin.com/"
   facebook: "https://www.facebook.com/villabenedetta3/?locale=it_IT"

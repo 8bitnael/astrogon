@@ -1,13 +1,44 @@
 ---
-title: Portfolio
-description: Jane Doe's projects and programs.
+title: Informazioni Utili
+description: Tutte le informazioni principali per chi sta valutando l’ingresso in struttura per un proprio caro.
 
 projects:
-  - title: "Conway's Game of Life"
+  - title: "Posti letto e disponibilità"
     technologies:
-      - "HTML Canvas"
-      - "JavaScript"
-    github: "https://github.com/"
+      - "Posti Totali"
+      - "Posti Disponibili"
     content:
-      - "[Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is a cellular automaton designed by the late [John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway#). It's a \"0-player game\" played out on a discretely mutating matrix of square, binary cells. The state of the each cell in the grid from one 'generation' (grid state) to the next is determined by the states of its 'neighbors' (immediately adjacent cells). For example, if a cell is 'alive' in the curent generation, and has more than 3 living neighbors, it will be dead in the next generation, as if by overpopulation."
+      - "La struttura dispone complessivamente di **x posti letto**, di cui **x attualmente disponibili**. Le camere sono singole e doppie, tutte dotate di bagno privato."
+
+  - title: "Tipologia di ospiti"
+    technologies:
+      - "Anziani autosufficienti"
+      - "Anziani semi-autosufficienti"
+    content:
+      - "Accogliamo anziani autosufficienti e semi-autosufficienti, garantendo assistenza personalizzata in base alle reali esigenze dell’ospite."
+
+  - title: "Assistenza e servizi"
+    technologies:
+      - "Assistenza H24"
+      - "Personale qualificato"
+      - "Somministrazione pasti"
+      - "Igiene personale"
+    content:
+      - "Il personale è presente **24 ore su 24**. Offriamo servizi di assistenza alla persona, somministrazione dei pasti, cura dell’igiene personale e monitoraggio quotidiano."
+
+  - title: "Ambiente e struttura"
+    technologies:
+      - "Villa nel verde"
+      - "Giardino"
+      - "Aree comuni"
+    content:
+      - "La struttura è una **villa immersa nel verde**, con ampio giardino e spazi comuni interni ed esterni pensati per favorire la socializzazione."
+
+  - title: "Visite e contatti"
+    technologies:
+      - "Visite su appuntamento"
+      - "Contatti diretti"
+    content:
+      - "È possibile visitare la struttura su appuntamento. Per informazioni su disponibilità e costi, vi invitiamo a contattarci direttamente."
 ---
+
