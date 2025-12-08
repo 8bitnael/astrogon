@@ -146,7 +146,7 @@ const recipes = defineCollection({
       prepTime: z.number().optional(),
       servings: z.number().optional(),
       diet: z.string().optional(),
-      ingredients: z
+      serviceInfo: z
         .object({
           list: z.array(z.string()),
           qty: z.array(z.string()),

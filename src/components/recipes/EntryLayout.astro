@@ -26,7 +26,7 @@ const {
   prepTime,
   servings,
   diet,
-  ingredients,
+  serviceInfo,
   instructions,
   notes,
 } = entry.data;
@@ -112,19 +112,19 @@ const {
               }
             </div>
           </section>
-          <!-- Ingredients -->
+          <!-- serviceInfo -->
           {
-            ingredients && (
+            serviceInfo && (
               <section class="col basis-1/3 p-2 min-w-72">
                 <div class="glass rounded-lg p-4 intersect:animate-fadeUp opacity-0">
-                  <h2 set:html="Ingredients" class="mb-2" />
+                  <h2 set:html="serviceInfo" class="mb-2" />
                   <div class="row justify-center">
-                    {ingredients.list.map((it: string, index: number) => (
+                    {serviceInfo.list.map((it: string, index: number) => (
                       <div class="row my-1">
-                        <div class="col-7" set:html={ingredients.list[index]} />
+                        <div class="col-7" set:html={serviceInfo.list[index]} />
                         <div
                           class="col-5 text-right"
-                          set:html={ingredients.qty[index]}
+                          set:html={serviceInfo.qty[index]}
                         />
                         <hr class="my-1" />
                       </div>

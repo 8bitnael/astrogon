@@ -1,4 +1,4 @@
 ---
-title: Recipes
-description: A modest recipe book.
+title: Cosa offriamo
+description: Struttura, servizi, camere, personale qualificato
 ---
