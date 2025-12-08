@@ -35,7 +35,13 @@ const { image, imageAlt, title, content, button } = entry.data;
             )
           }
           <h1 set:html={markdownify(title)} class="sr-only" />
-          <p set:html={markdownify(content)} class="mb-8 italic normal-case text-white" />
+          <div class="glass container lg:my-2 lg:rounded-lg intersect:animate-fadeUp opacity-0">
+            <p
+              set:html={markdownify(content)}
+              class="mb-8 font-bold normal-case text-[#39464b]"
+              style="font-style: italic;">
+            </p>
+          </div>
           {
             button && (
               <Button
