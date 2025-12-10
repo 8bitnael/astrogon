@@ -1,7 +1,7 @@
 ---
 title: Personale Qualificato OSS
 description: Il personale OSS di Villa Benedetta garantisce assistenza completa, professionale e umana agli ospiti, con presenza costante e attenzione continua alla persona.
-image: "@assets/recipes/oss.jpg"
+image: "@assets/recipes/oss.png"
 imageAlt: "Personale OSS Villa Benedetta"
 author: villa-benedetta
 diet: Assistenza Sanitaria
